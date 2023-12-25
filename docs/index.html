@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html class="h-full" lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Здоровые зубы на всю жизнь</title>
+	<link rel="icon" href="./img/icon.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="./css/output.css" />
+</head>
+
+<body class="h-full dark:text-white">
+	<div class="wrapper flex min-h-full flex-col">
+		<!-- Header -->
+		<header class="shadow-sm bg-[#000B76]">
+			<div class="container">
+				<div class="flex items-center justify-between py-4 md:py-5">
+					<a href=" #" class="xs:w-28"><img src="./img/logo.svg" alt="#"></a>
+					<!-- Desktop menu -->
+					<ul id="menu"
+						class="z-10 flex animate-fadeIn items-center gap-14 lg:text-red-300 md:gap-10 sm:hidden sm:flex-col sm:items-center sm:justify-center">
+						<!-- Menu Item -->
+						<li class="text-white transition-colors font-medium hover:text-[#9087CB]">
+							<a href="#">
+								<span>Главная</span>
+							</a>
+						</li>
+						<!-- Menu Item -->
+						<li class="text-white transition-colors font-medium hover:text-[#9087CB]">
+							<a href="#">
+								<span>Продукция</span>
+							</a>
+						</li>
+						<!-- Menu Item -->
+						<li class="text-white transition-colors font-medium hover:text-[#9087CB]">
+							<a href="#">
+								<span>О нас</span>
+							</a>
+						</li>
+						<!-- Menu Item -->
+						<li class="text-white transition-colors font-medium hover:text-[#9087CB]">
+							<a href="#">
+								<span>Контакты</span>
+							</a>
+						</li>
+					</ul>
+
+					<!-- Mobile menu -->
+					<ul id="mobile-menu"
+						class="fixed left-0 right-0 top-0 bottom-0 z-10 hidden h-screen w-screen flex-col items-center justify-center gap-14 overflow-auto bg-slate-900 py-10">
+						<li>
+							<a href="#" class="text-3xl text-white/80 hover:text-white"> Главная </a>
+						</li>
+						<li class="text-3xl text-white/80 transition-colors">
+							<a href="#" class="text-3xl text-white/80 hover:text-white">Продукция</a>
+						</li>
+
+						<li>
+							<a href="#" class="text-3xl text-white/80 hover:text-white">О нас</a>
+						</li>
+						<li>
+							<a href="#" class="text-3xl text-white/80 hover:text-white">Контакты</a>
+						</li>
+					</ul>
+
+					<!-- Burger Button -->
+					<button id="burger" class="group relative z-20 hidden h-5 w-[30px] sm:block">
+						<span
+							class="absolute left-0 top-0 flex h-[2px] w-[30px] bg-white transition-transform group-[.active]:translate-y-2 group-[.active]:rotate-45 group-[.active]:bg-white"></span>
+						<span
+							class="absolute left-0 top-1/2 flex h-[2px] w-[30px] translate-x-0 -translate-y-1/2 bg-white transition-transform group-[.active]:opacity-0"></span>
+						<span
+							class="absolute left-0 bottom-0 flex h-[2px] w-[30px] bg-white transition-transform group-[.active]:-translate-y-[10px] group-[.active]:-rotate-45 group-[.active]:bg-white"></span>
+					</button>
+				</div>
+			</div>
+			<div class="container flex sm:flex-col sm:items-center sm:text-center">
+				<h1 data-aos="fade-right" data-aos-duration="500"
+					class="mt-[78px] font-bold text-[64px] leading-[125%] text-white xs:text-4xl xs:mt-8">Здоровые<br>зубы на
+					<br>всю жизнь
+				</h1>
+				<div class="flex justify-end flex-grow sm:hidden">
+					<img class="sm:hidden" src="./img/brush-teeth.svg" alt="">
+				</div>
+			</div>
+		</header>
+
+		<!-- Main Content -->
+		<main class="flex-auto">
+			<img class="bg-no-repeat w-[100%]" src="./img/bg-02.svg" alt="">
+			<section">
+				<div data-aos="fade-left" data-aos-duration="700" class="container">
+					<h2
+						class="flex justify-center text-5xl leading-[60px] font-medium text-title mt-6 sm:text-4xl xs:text-[18px]">
+						Наши обещания вам</h2>
+				</div>
+				<div data-aos="fade-right" data-aos-duration="700" class="container mt-14 flex justify-center pb-14">
+					<ul class="flex gap-10 md:gap-7 sm:grid sm:grid-cols-1 sm:justify-items-center">
+						<li class="flex flex-col justify-center items-center w-[240px] md:w-[50%]">
+							<img class="w-11 h-[38px]" src="./img/img-01.svg" alt="">
+							<h3 class="mt-[23px] text-title text-2xl font-medium xs:text-sm">Эффективность</h3>
+							<p class="mt-8 text-center text-[#424A73] font-medium leading-6 xs:text-xs">наши продукты помогают
+								предотвратить кариес, гингивит и другие стоматологические заболевания.</p>
+						</li>
+						<li class="flex flex-col justify-center items-center w-[240px] md:w-[50%]">
+							<img class="w-11 h-[38px]" src="./img/img-02.svg" alt="">
+							<h3 class="mt-[23px] text-title text-2xl font-medium xs:text-sm">Безопасность</h3>
+							<p class="mt-8 text-center text-[#424A73] font-medium leading-6 xs:text-xs">наши продукты изготовлены из
+								натуральных ингредиентов и не содержат вредных химических веществ.</p>
+						</li>
+						<li class="flex flex-col justify-center items-center w-[240px] md:w-[50%]">
+							<img class="w-11 h-[38px]" src="./img/img-03.svg" alt="">
+							<h3 class="mt-[23px] text-title text-2xl font-medium xs:text-sm">Эффективность</h3>
+							<p class="mt-8 text-center text-[#424A73] font-medium leading-6 xs:text-xs">Удобство наши продукты просты
+								в использовании и обеспечивают комфортную чистку зубов.</p>
+						</li>
+					</ul>
+				</div>
+				</section>
+				<section>
+					<div class="container justify-center text-center">
+						<h2 data-aos="fade-left" data-aos-duration="500"
+							class="flex justify-center text-5xl leading-[60px] font-medium text-title mt-6 sm:text-4xl xs:text-3xl">
+							Наша продукция</h2>
+						<p data-aos="fade-right" data-aos-duration="700"
+							class="text-[#444E83] text-[21px] mt-9 font-bold sm:text-lg xs:text-sm">Выбирайте лучшие средства для
+							ухода за зубами <br>от ведущих брендов</p>
+					</div>
+					<div class="mt-10">
+						<ul data-aos="fade-left" data-aos-duration="900"
+							class="flex justify-center items-center text-center gap-8 md:grid md:grid-cols-1 md:justify-items-center">
+							<li
+								class="flex flex-col justify-center items-center border-2 border-[#0038FF] max-w-[300px] rounded-3xl px-[27px] hover:scale-105 transition-all hover:shadow-md hover:shadow-blue-900 xs:px-2 xs:w-[200px]">
+								<img class="mt-2 hover:scale-110 transition-all" src="./img/1.png" alt="img">
+								<h3 class="text-[#444E83] font-medium text-lg mb-1 xs:text-base">Зубная паста "Освежение"</h3>
+								<p class="text-[#383D56] font-medium text-base mb-3 xs:text-xs">Эффективно борется с зубным налетом и
+									обеспечивает
+									свежесть дыхания.</p>
+								<div class="flex justify-between gap-14 mb-7 items-center xs:gap-2 xs:mt-2">
+									<span class="font-medium text-[#0B133D] xs:text-sm">299.99 ₴</span>
+									<button
+										class="border border-[#0B133D] rounded-[20px] px-3 py-1 text-[#0B133D] text-sm hover:bg-slate-800 hover:text-white transition-all active:text-white/80">КУПИТЬ</button>
+								</div>
+							</li>
+
+							<li
+								class="flex flex-col justify-center items-center border-2 border-[#0038FF] max-w-[300px] rounded-3xl px-[27px] hover:scale-105 transition-all hover:shadow-md hover:shadow-blue-900 xs:px-2 xs:w-[200px]">
+								<img class="mt-2 hover:scale-110 transition-all" src="./img/1.png" alt="img">
+								<h3 class="text-[#444E83] font-medium text-lg mb-1 xs:text-base">Зубная паста "Освежение"</h3>
+								<p class="text-[#383D56] font-medium text-base mb-3 xs:text-xs">Эффективно борется с зубным налетом и
+									обеспечивает
+									свежесть дыхания.</p>
+								<div class="flex justify-between gap-14 mb-7 items-center xs:gap-2 xs:mt-2">
+									<span class="font-medium text-[#0B133D] xs:text-sm">299.99 ₴</span>
+									<button
+										class="border border-[#0B133D] rounded-[20px] px-3 py-1 text-[#0B133D] text-sm hover:bg-slate-800 hover:text-white transition-all active:text-white/80">КУПИТЬ</button>
+								</div>
+							</li>
+
+							<li
+								class="flex flex-col justify-center items-center border-2 border-[#0038FF] max-w-[300px] rounded-3xl px-[27px] hover:scale-105 transition-all hover:shadow-md hover:shadow-blue-900 xs:px-2 xs:w-[200px]">
+								<img class="mt-2 hover:scale-110 transition-all" src="./img/1.png" alt="img">
+								<h3 class="text-[#444E83] font-medium text-lg mb-1 xs:text-base">Зубная паста "Освежение"</h3>
+								<p class="text-[#383D56] font-medium text-base mb-3 xs:text-xs">Эффективно борется с зубным налетом и
+									обеспечивает
+									свежесть дыхания.</p>
+								<div class="flex justify-between gap-14 mb-7 items-center xs:gap-2 xs:mt-2">
+									<span class="font-medium text-[#0B133D] xs:text-sm">299.99 ₴</span>
+									<button
+										class="border border-[#0B133D] rounded-[20px] px-3 py-1 text-[#0B133D] text-sm hover:bg-slate-800 hover:text-white transition-all active:text-white/80">КУПИТЬ</button>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+				</section>
+				<section class="container">
+					<div class="flex justify-center text-center">
+						<h2 data-aos="fade-up" data-aos-duration="500"
+							class="flex justify-center text-5xl leading-[60px] font-medium text-title mt-6 sm:text-4xl xs:text-3xl">
+							Больше идей для <br>вдохновения в<br>нашем блоге</h2>
+					</div>
+					<ul data-aos="fade-down" data-aos-duration="500"
+						class="flex mt-20 gap-5 justify-center items-center sm:grid sm:grid-cols-1 sm:justify-items-center">
+						<li class="gap-12 flex-col w-[400px] xs:w-[220px]">
+							<img class="mb-2" src="./img/blog/img-01.png" alt="blog-img">
+							<a href="#" class="text-[#707070] font-medium text-sm xs:text-xs">
+								<span>24 декабря,2023</span> |
+								Ирина Иванова
+							</a>
+							<a href="#">
+								<h3 class="mt-2 text-[#363838] font-bold text-2xl xs:text-base">Эффективные методы предотвращения и
+									удаления зубного
+									налета.</h3>
+							</a>
+						</li>
+						<li class="gap-12 flex-col w-[400px] xs:w-[220px]">
+							<img class="mb-2" src="./img/blog/img-02.png" alt="blog-img">
+							<a href="#" class="text-[#707070] font-medium text-sm xs:text-xs">
+								<span>31 декабря,2023</span> |
+								Алексей Петров
+							</a>
+							<a href="#">
+								<h3 class="mt-2 text-[#363838] font-bold text-2xl xs:text-base">Здоровье улыбки с использованием
+									натуральных
+									ингредиентов.</h3>
+							</a>
+						</li>
+					</ul>
+				</section>
+		</main>
+
+		<!-- Footer -->
+		<footer class="flex items-center justify-between bg-[#000B76]">
+			<div class="container flex gap-10 items-center justify-center sm:flex-col sm:gap-2 mb-8 mt-5">
+				<a href="#">
+					<img class="sm:w-24 h-24" src="./img/logo.svg" alt="">
+				</a>
+				<a class="text-white font-bold hover:text-[#C9D8FF] transition-colors sm:text-sm" href="#">Продукция</a>
+				<a class="text-white font-bold hover:text-[#C9D8FF] transition-colors sm:text-sm" href="#">Контакты</a>
+				<a class="text-white font-bold hover:text-[#C9D8FF] transition-colors sm:text-sm" href="#">О НАС</a>
+				<a class="text-white font-bold hover:text-[#C9D8FF] transition-colors sm:text-sm xs:text-[12px]"
+					href="#">Политика конфиденциальности</a>
+			</div>
+		</footer>
+	</div>
+
+	<!-- JS -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
