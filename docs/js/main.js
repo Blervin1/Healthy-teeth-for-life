@@ -65,6 +65,8 @@ const slideToggle = (target, duration = 300) => {
 	}
 }
 
-/* AOS */
+AOS.init({
+	disable: 'mobile'
+});
 
 AOS.init();
